@@ -1,5 +1,5 @@
 .navbar{
-    background: rgb(70, 55, 70);
+    background: rgba(0, 0, 0, 0);
     padding: 8px 16px 0 16px;
     size: 16px;
     align-items: center;
@@ -14,22 +14,17 @@
     margin-right: 0 !important;
     padding: 0 0 0 0;
     font-family: 'Roboto', sans-serif;
-    /*border-bottom: 3px solid;*/
-    /*border-bottom-color: transparent;*/
 }
 .nav-link:hover{
-    background: rgb(70, 55, 70);
-    color: #cc99ff;
+    color: #cc99ff !important;
     font-family: 'Roboto', sans-serif;
-    /*border-bottom: 3px solid;*/
-    /*border-bottom-color: #cc99ff;*/
+
 }
 .active{
     size: 16px;
-    background-color: rgb(50, 40, 50);
-    color: #cc99ff;
-    border-bottom-color: #cc99ff;
-    border-bottom: 3px solid;
+    color: #cc99ff !important;
+    border-bottom-color: #cc99ff !important;
+    border-bottom: 1px solid;
     transition: all ease-in-out 250ms;
     font-family: 'Roboto', sans-serif;
 }
@@ -37,11 +32,10 @@
     justify-content: flex-end;
 }
 .navbar-toggler{
-    background:rgb(70, 55, 70);
-    colour: #cc99ff; !important;
+    colour: #cc99ff !important;
 }
 
-.body {
+body {
     padding-top: 50px;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/University_of_Waterloo_E5_Bridge_Interier.jpg/1600px-University_of_Waterloo_E5_Bridge_Interier.jpg");
     background-repeat: no-repeat;
