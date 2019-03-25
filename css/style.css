@@ -28,20 +28,35 @@
     transition: all ease-in-out 250ms;
     font-family: 'Roboto', sans-serif;
 }
-.navbar-collapse{
-    justify-content: flex-end;
-}
+
 .navbar-toggler{
-    colour: #cc99ff !important;
+    color: #cc99ff !important;
 }
 
-body {
+.background {
     padding-top: 50px;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/University_of_Waterloo_E5_Bridge_Interier.jpg/1600px-University_of_Waterloo_E5_Bridge_Interier.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
     background-size: cover;
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(40,40,40);
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 .h1 {
