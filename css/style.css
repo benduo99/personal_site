@@ -22,12 +22,10 @@
 
 }
 .active{
-    size: 16px;
     color: #cc99ff !important;
     border-bottom-color: #cc99ff !important;
-    border-bottom: 1px solid;
-    transition: all ease-in-out 250ms;
-    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid;
+    /*transition: all ease-in-out 250ms;*/
 }
 
 .navbar-toggler{
@@ -61,9 +59,14 @@ html {
     padding: 6px;
 }
 
+.footer-copyright {
+    color: rgb(180,180,180);
+    background-color: rgba(0,0,0,0) !important;
+}
+
 .h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: ghostwhite;
 }
 
