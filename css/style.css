@@ -64,16 +64,23 @@ html {
     background-color: rgba(0,0,0,0) !important;
 }
 
-.h1 {
+.hd1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    color: ghostwhite;
+    color: ghostwhite !important;
+    letter-spacing: 5px;
+    font-weight: bolder !important;
 }
 
-.h2 {
+.hd2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    color: ghostwhite;
+    color: ghostwhite !important;
+}
+
+.p1 {
+    font-family: 'Roboto', sans-serif;
+    /*font-size: 1rem;*/
+    color: ghostwhite !important;
+    text-align: left;
 }
 
 .headshot {
