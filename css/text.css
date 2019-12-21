@@ -1,0 +1,41 @@
+.intro_text {
+    color: #fff;
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.5vw;
+    padding: 1.5vw 4vw;
+    border: 6px solid #fff;
+    display: inline-block;
+    margin-top: 30vh;
+    position:relative;
+}
+
+.h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: ghostwhite;
+}
+
+.h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: ghostwhite;
+}
+
+.h1b {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vw;
+    color: rgb(100,50,120);
+    align-content: center;
+    font-weight: 600;
+}
+
+.body_text {
+    font-size: 20px;
+    color: ghostwhite;
+}
+
+.about {
+    min-height: 100vh;
+}
