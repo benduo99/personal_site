@@ -18,6 +18,36 @@
     min-height: 100%;
 }
 
+.sport_background {
+    padding-top: 150px;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.7)), url("https://athletics.uwaterloo.ca/common/controls/image_handler.aspx?thumb_id=13&image_path=/images/2018/12/10/Photo_2018_05_04_1_02_27_PM.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+.piano_background {
+    padding-top: 150px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://wallpaperset.com/w/full/8/e/0/167560.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+.case_background {
+    padding-top: 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./Resources/Pictures/casing.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
 .purple_back{
     padding-top: 60px;
     background-color: rgb(60,60,75);
@@ -28,6 +58,7 @@
 
 .lgray_back{
     padding-top: 60px;
+    padding-bottom: 60px;
     background-color: rgb(150, 150, 150);
     background-size: 100%;
     width: 100%;

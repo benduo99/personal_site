@@ -31,6 +31,14 @@
     font-weight: 600;
 }
 
+.h1c {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    color: ghostwhite;
+    align-content: center;
+    font-weight: 600;
+}
+
 .body_text {
     font-size: 20px;
     color: ghostwhite;
