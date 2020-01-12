@@ -1,6 +1,6 @@
 .index_page {
     padding-top: 50px;
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://i1.wp.com/www.publicia.net/wp-content/uploads/2017/09/background-web.jpg?fit=1920%2C1080&ssl=1");
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../Resources/Pictures/city_bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
@@ -10,7 +10,7 @@
 
 .e5_background {
     padding-top: 50px;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/University_of_Waterloo_E5_Bridge_Interier.jpg/1600px-University_of_Waterloo_E5_Bridge_Interier.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../Resources/Pictures/e5_gray_2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
@@ -28,6 +28,16 @@
     min-height: 100%;
 }
 
+.miovision {
+ padding-top: 150px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../Resources/Pictures/miovision.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
 .sport_background {
     padding-top: 150px;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.7)), url("https://athletics.uwaterloo.ca/common/controls/image_handler.aspx?thumb_id=13&image_path=/images/2018/12/10/Photo_2018_05_04_1_02_27_PM.jpg");
@@ -40,7 +50,17 @@
 
 .piano_background {
     padding-top: 150px;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://wallpaperset.com/w/full/8/e/0/167560.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../Resources/Pictures/piano.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+.envcanada {
+    padding-top: 150px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../Resources/Pictures/EnvCanada.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
@@ -50,7 +70,7 @@
 
 .case_background {
     padding-top: 100px;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./Resources/Pictures/casing.png');
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../Resources/Pictures/casing.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -74,3 +94,14 @@
     width: 100%;
     background-attachment: fixed;
 }
+
+.breaker{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(200, 200, 200);
+    background-size: 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+

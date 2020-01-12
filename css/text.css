@@ -47,3 +47,11 @@
 .about {
     min-height: 100vh;
 }
+
+.centered {
+    text-align: center;
+}
+
+.bold {
+    font-weight: 400;
+}
