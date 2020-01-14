@@ -7,14 +7,16 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
 .navbar{
     background: rgba(0, 0, 0, 0);
-    padding: 8px 16px 0 16px;
+    padding: 8px 16px 0 16px !important;
     size: 16px;
     align-items: center;
-    border-bottom: 20px;
-    border-bottom-color: #4e555b;
+   
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0), 0 2px 10px 0 rgba(0,0,0,0) !important;
+    transition: background 200ms linear;
 }
 .nav-link , .navbar-brand{
     color: #f4f4f4;
@@ -37,9 +39,13 @@ html {
     /*transition: all ease-in-out 250ms;*/
 }
 
-.navbar-toggler{
-    color: #cc99ff !important;
+.navbar.scrolled {
+  background-color: rgb(40,40,40) !important;
+  transition: background-color 200ms linear;
 }
+
+
+
 
 .footer {
     width: 100%;
@@ -89,10 +95,18 @@ html {
     height: auto;
 }
 
-.page_img_c{
+.carousel_img_c{
     margin: 0 auto;
     width: auto;
     height: 40vw;
     padding: 20 20 20 20;
 }
+
+.page_img_c{
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
+    padding: 20 20 20 20;
+}
+
 
