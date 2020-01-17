@@ -33,7 +33,7 @@
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url("../Resources/Pictures/miovision.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center bottom;
+    background-position: center top;
     background-size: cover;
     padding-bottom: 150px;
 }
