@@ -67,9 +67,8 @@
     background-size: cover;
     padding-bottom: 150px;
 }
-https://dotesports-media.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2019/10/11123108/Summoners-Rift.jpg
 
-.envcanada {
+.envcanada{
     padding-top: 150px;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.7)), url("../Resources/Pictures/EnvCanada.jpg");
     background-repeat: no-repeat;
