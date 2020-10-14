@@ -63,7 +63,7 @@ This site is created by Benjamin Duo, to learn the basics of HTML and CSS
     </nav>
 
 <!--Title page of about section-->
-<div class="container text-center vh-align about">
+<div class="container-fluid text-center vh-align about">
     <div class="row justify-content-center">        
             <span class="intro_text">Portfolio</span>      
     </div>
@@ -71,203 +71,126 @@ This site is created by Benjamin Duo, to learn the basics of HTML and CSS
  
     
 <!--Project page content-->       
-<div class="container-fluid purple_back">
-    <div class="boxed_invis body_text">
-        <h3>This site is a side project.</h3>
-        <br>
-        With the exception of the snow javascript on my frontpage, everything on this site was designed and programmed by me. I learned about using markup languages and it got too hard to make it entirely from scratch so I used bootstrap as a framework. As I progress through university, you might notice this site's evolution. Currently page is not mobile friendly.
-        <br>
-        Along with this site, I have other projects I have completed whether it was for school or during my spare time.
-    </div>
-    <br>
-</div>
 
 <div class="container-fluid lgray_back">
-    <div class="row justify-content-center">
-        <div class="col"></div>
-        <div class="boxed_invis body_text col-3 d-md-block">
-            <h3>V8 Engine Model</h3>
-            <br>
-            To improve my CAD and analysis skills, I challenged myself to learn and design a V8 engine model from videos and images on the web. I plan on trying to eventually develop this into a 3-D model that I can print and showcase! Currently I have most of the engine block with a cross-plane crank shaft and functioning pistons.
+    <section id="portfolio" class="portfolio">
+        <div class="grid-port-row">
+            <div class="grid-port-item">
+                <div class="tile-v8">
+                        <div class="bg-hover">
+                            <div class="port-item-text">
+                                <h4 class="port-item-name">V8 Engine Model</h4>
+                                <h5 class="port-item-detail">SolidWorks Side Project</h5>
+                                <p class="body_text">
+                                    To improve my CAD and analysis skills, I challenged myself to learn and design a V8 engine model from videos and images on the web. I plan on trying to eventually develop this into a 3-D model that I can print and showcase! Currently I have most of the engine block with a cross-plane crank shaft and functioning pistons.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="grid-port-item">
+                <div class="tile-kpm">
+                    <div class="bg-hover">
+                        <div class="port-item-text">
+                            <h4 class="port-item-name">Extruded Li-Ion Battery Design</h4>
+                            <h5 class="port-item-detail">Property of KPM Power</h5>
+                            <p class="body_text">
+                                  This is one of the battery designs I created during my time at KPM. It was designed to fit inside all walkie forklifts. It has an extruded case with gaskets to have a sealed but accessable interior for service. It was designed with Solidworks with tolerances in mind. One of the things I really enjoyed doing was designing the details of the product. Wires (some not shown) were necessary to determine lengths in electric cable schematics for production.  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-4">
-            <br><br>
-            <img src="Resources/Pictures/v8_2.JPG" alt="v8 engine rendered photo" class="page_img_c col-10 d-none d-md-block">
-            <!--<video controls loop>
-                <source src="Resources/Pictures/v8_rendered_v2.mp4" alt="v8 engine animation" class="page_img_c col-10 d-none d-md-block">
-            </video> --> 
+        
+          <div class="grid-port-row">
+            <div class="grid-port-item">
+                <div class="tile-uwaft">
+                        <div class="bg-hover">
+                            <div class="port-item-text">
+                                <h4 class="port-item-name">UWAFT Mechanical Team</h4>
+                                <h5 class="port-item-detail">NX - Design Team</h5>
+                                <p class="body_text">
+                                    UWAFT participates in the 4-year long Ecocar challenge. The goal is to take a market car, gut it, and turn it into a hybrid. During my time on the team, I designed mounts and casings for differents parts of the car such as pumps and cameras. I also created HV junction boxes for the electrical components fitting on small areas of the car CAD. I participated in vehicle architecture selection by research and analysis of components.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="grid-port-item">
+                <div class="tile-nova">
+                    <div class="bg-hover">
+                        <div class="port-item-text">
+                            <h4 class="port-item-name">DEG Prototype Test Rig</h4>
+                            <h5 class="port-item-detail">Property of Nova Institute</h5>
+                            <p class="body_text">
+                                    Apart from the heavy electrical research, I also did mechanical design and calculations to develop a budget tight testing rig to stretch the DEG (dielectric elastomer generator). Research on motors and applying correct gearing to get the desired force was critical for this project.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col"></div>
-    </div>
-</div>
+         <div class="grid-port-row">
+            <div class="grid-port-item">
+                <div class="tile-ri3d">
+                        <div class="bg-hover">
+                            <div class="port-item-text">
+                                <h4 class="port-item-name">Robot in 3 Days</h4>
+                                <h5 class="port-item-detail">Design Team</h5>
+                                <p class="body_text">
+                                    Ri3D is a 72-hour building challenge for people who are no longer eligible to participate in FIRST. The nature of the challenge is to make a functioning robot the moment the challenge is announced by FIRST. This means that all the ideas are original and all the tasks need to be completed efficiently ideas are original. I manufactured aluminum parts for the milk-crate carriage and assembled the elevator system.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="grid-port-item">
+                <div class="tile-first">
+                    <div class="bg-hover">
+                        <div class="port-item-text">
+                            <h4 class="port-item-name">FIRST Robotics</h4>
+                            <h5 class="port-item-detail">Team 854</h5>
+                            <p class="body_text">
+                                    For a few years in high school, I participated in FIRST because a good friend of mine convinced me to see if I liked it. And I did. Immensely. So much so that I decided to take a degree to pursue the field of robots. During my time on the team, not only did I foster my enthusiam for engineering but I also gained valuable skills such as manufacturing and designing that I use and polish to this day.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-port-row">
+            <div class="grid-port-item">
+                <div class="tile-lego">
+                    <div class="bg-hover">
+                        <div class="port-item-text">
+                            <h4 class="port-item-name">Guitar Playing Robot</h4>
+                            <h5 class="port-item-detail">First Year Design Project</h5>
+                            <p class="body_text">
+                                     For my final project of my first term of university, I worked with three friends to create a lego robot that could translate guitar tabs from the internet and play them on a guitar. I primarily did the mechanical side of the project and did a lot of the building but I also wrote code to make the frets play. Fun fact, I learned how to play guitar because I thought it would be fun and might help with the design of the robot.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-port-item">
+                <div class="tile-table">
+                        <div class="bg-hover">
+                            <div class="port-item-text">
+                                <h4 class="port-item-name">Folding Table</h4>
+                                <h5 class="port-item-detail">Side Project</h5>
+                                <p class="body_text">
+                                         This was a project of mine that I worked on during the last few months of high school, after the robotics season. It was incredibly time consuming but also satisfying to create. A challenge with this project was using making the entire table from thin maple strips that were donated to the school as scrap.
+                                </p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
     
     
-<!--
-<div class="container-fluid lgray_back">
-    <div class="row justify-content-center">
-        <div class="col"></div>
-        <div class="boxed_invis body_text col-3 d-md-block">
-            <h3>EXTRUDED LI-ION BATTERY</h3>
-            Property belongs to KPM Power Inc. 
-            <br><br>
-            This is one of the battery designs I created during my time at KPM. It was designed to fit inside all walkie forklifts. It has an extruded case with gaskets to have a sealed but accessable interior for service. 
-            <br><br>
-            It was designed with Solidworks with tolerances in mind. One of the things I really enjoyed doing was designing the details of the product. Wires (some not shown) were necessary to determine lengths in electric cable schematics for production.               
-        </div>
-        <div class="col-4">
-            <br><br>
-            <img src="Resources/Pictures/extrude_case.png" alt="battery CAD model" class="page_img_c col-10 d-none d-md-block">
-        </div>
-        <div class="col"></div>
-    </div>
-</div>
-    
-<div class="container-fluid lgray_back">
-    <div class="row justify-content-center">
-        <div class="col"></div>
-        <div class="boxed_invis body_text col-3 d-md-block">
-            <h3>THERMAL/ENVIRONMENTAL STRESS TEST FIXTURE</h3>
-            Property belongs to Miovision 
-            <br><br>
-             During my time at Miovision, I designed multiple new manufacturing and testing fixtures and this is one of them. I was taught a lot of GD&T through creating production drawings that were stored in Netsuite and sent to manufacturers. 
-            <br><br>
-             This is meant to place Scout Connects into to test different pressures and temperatures. The challenge of designing this was to have proper tolerance to avoid scratches on the product from thermal expansion but also ensure nothing can easily slip out. 3-D prints were made to test the fit.
-        </div>
-        <div class="col-4">
-            <br><br>
-            <img src="Resources/Pictures/essrack.png" alt="battery CAD model" class="page_img_c col-10 d-none d-md-block">
-        </div>
-        <div class="col"></div>
-    </div>
-</div>
--->
-
-<div class="container-fluid lgray_back">
-    <div class="row justify-content-center">
-        <div class="col"></div>
-        <div class="boxed_invis body_text col-3 d-md-block">
-            <h3>UNIVERSITY OF WATERLOO ALTERNATIVE FUELS TEAM</h3>
-            <br>
-            UWAFT (in short) participates in the 4-year long Ecocar challenge. The goal is to take a market car, gut it, and turn it into a hybrid. I joined at the end of Ecocar 3 and designed mounts for pumps and filters and also for go-pros for suspension filming.
-            <br><br>
-            In Ecocar 4, I did research to find suitable components for the car's interior. I calculated the torque, power, and battery capacity requirements to fulfill the cruise speed and regenerative breaking limit. I designed cases and mounts for important components such as the HV junction box and found ways to position it underneath the car. Unfortunately I have decided to take an option (sort of like a minor at UW) and have overloaded my course list and am no longer apart of the team.
-            <br><br>
-            Note: The CAD here is property of GM and was used by the team (myself included) to design components, such as the HV function box mentioned above. I worked with these large assemblies but did not create them (other than the small additions)
-        </div>
-        <div class="col-4">
-            <br><br>
-            <img src="Resources/Pictures/ecocar.jpg" alt="Ecocar 3 Camero" class="page_img_c col-10 d-none d-md-block">
-            <img src="Resources/Pictures/blazercad2.png" alt="GM Blazer CAD" class="page_img_c col-10 d-none d-md-block">
-        </div>
-        <div class="col"></div>
-    </div>
-</div>
-    
-<div class="container-fluid lgray_back">
-    <div class="row justify-content-center">
-        <div class="col"></div>
-        <div class="boxed_invis body_text col-3 d-md-block">
-            <h2>FIRST ROBOTICS</h2>
-            University of Waterloo REACT Team
-            <br>
-            Ri3D (Robot in 3 Days)
-            <br><br>
-            Ri3D is a 72-hour building challenge for people who are no longer eligible to participate in FIRST. The nature of the challenge is to make a functioning robot the moment the challenge is announced by FIRST. This means that all the ideas are original and all the tasks need to be completed efficiently ideas are original. 
-            <br><br>
-            I manufactured aluminum parts for the milk-crate carriage and assembled the elevator system on the photo to the right.
-        </div>
-        <div class="col-4">
-            <br><br>
-            <img src="Resources/Pictures/ri3d.png" alt="Ri3D Team Elsie Robot" class="page_img_c col-10 d-none d-md-block">
-        </div>
-        <div class="col"></div>
-    </div>
-</div>
-    
-<div class="container-fluid lgray_back">
-    <div class="row justify-content-center">
-        <div class="col"></div>
-        <div class="boxed_invis body_text col-3 d-md-block">
-            <h3>Team 854 - Iron Bears</h3>
-            <br>
-            For a few years in high school, I participated in FIRST because a good friend of mine convinced me to see if I liked it. And I did. Immensely. So much so that I decided to take a degree to pursue the field of robots. During my time on the team, not only did I foster my enthusiam for engineering but I also gain valuable skills such as manufacturing and designing that I use and polish to this day.
-        </div>
-        <div class="col-4">
-            <br><br>
-            <img src="Resources/Pictures/robo1.jpg" alt="854 2017 Robot" class="page_img_c col-10 d-none d-md-block">
-        </div>
-        <div class="col"></div>
-    </div>
-</div>
-    
-<div class="container-fluid lgray_back">
-    <div class="row justify-content-center">
-        <div class="col"></div>
-        <div class="boxed_invis body_text col-3 d-md-block">
-            <h3>LINE FOLLOWING ROBOT</h3>
-            <br>
-            This robot was created during the lab of my Sensors and Instrumentation course. We had to design the op-amp circuits to filter for the correct data for the robot to work. I'm pretty proud of my soldering work since I managed to solder two surface mount 0805 resistors in series without shorting the pads (picture to the right). We needed a resistor that was 1.2 MΩ for the best gain and the lab's largest resistor was 1 MΩ. So instead of recalculating I wanted to challenge myself to solder two resistors on in series. Pretty much the reason I included this here.
-        </div>
-        <div class="col-4">
-            <br><br>
-            <img src="Resources/Pictures/220pcb.jpg" alt="PCB of line following robot" class="page_img_c col-10 d-none d-md-block">
-        </div>
-        <div class="col"></div>
-    </div>
-</div>
-<!--    
-<div class="container-fluid lgray_back">
-    <div class="row justify-content-center">
-        <div class="col"></div>
-        <div class="boxed_invis body_text col-3 d-md-block">
-            <h3>PCB Design</h3>
-            Property of the Government of Canada
-            <br><br>
-            This was one of the PCBs that I designed during my time at ECCC. I had an old schematic that I had to learn and redesign with updated components. To make the new sensor significatly smaller than the old one, I made a PCB. I learned about a lot of intricacies of good PCB design, although now looking back, I should have made the ground floods into sections so soldering onto ground would be easier.
-        </div>
-        <div class="col-4">
-            <br><br>
-            <img src="Resources/Pictures/FSSP%20top.PNG" alt="PCB of line following robot" class="page_img_c col-10 d-none d-md-block">
-        </div>
-        <div class="col"></div>
-    </div>
-</div>
--->
-
-<div class="container-fluid lgray_back">
-    <div class="row justify-content-center">
-        <div class="col"></div>
-        <div class="boxed_invis body_text col-3 d-md-block">
-            <h3>GUITAR PLAYING ROBOT</h3>
-            <br>
-            For my final project of my first term of university, I worked with three other friends to create a lego robot that could translate guitar tabs from the internet and play them on a guitar.
-            <br><br>
-            I primarily did the mechanical side of the project and did a lot of the building but I also wrote code to make the frets play.
-            <br><br>
-            Fun fact, I learned how to play guitar because I thought it would be fun and might help with the design of the robot.
-        </div>
-        <div class="col-4">
-            <br><br>
-            <img src="Resources/Pictures/legorobo1.jpeg" alt="Guitar Playing Robot" class="page_img_c col-10 d-none d-md-block">
-        </div>
-        <div class="col"></div>
-    </div>
-</div>
-
-<div class="container-fluid lgray_back">
-    <div class="row justify-content-center">
-        <div class="col"></div>
-        <div class="boxed_invis body_text col-3 d-md-block">
-            <h3>FOLDING TABLE</h3>
-            <br>
-            This was a project of mine that I worked on during the last few months of high school, after the robotics season. It was based off an online guide but I made adjustments for the materials I had at hand. It was incredibly time consuming but also satisfying to create. I never actually had a nice big piece of wood but lots of thin strips that I had to glue together and plane to get a uniform tabletop and legs.
-        </div>
-        <div class="col-4">
-            <br><br>
-            <img src="Resources/Pictures/table.jpeg" alt="Guitar Playing Robot" class="page_img_c col-10 d-none d-md-block">
-        </div>
-        <div class="col"></div>
-    </div>
 </div>
 
 
